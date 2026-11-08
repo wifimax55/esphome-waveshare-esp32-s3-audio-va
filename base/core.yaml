@@ -71,7 +71,7 @@ substitutions:
   # a fallback: HA's time platform syncs the clock, and the `set_time_zone` API
   # action overwrites this at runtime (persisted). Grab yours from
   # https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
-  posix_timezone: ""CET-1CEST,M3.5.0,M10.5.0/3""
+  posix_timezone: "CET-1CEST,M3.5.0,M10.5.0/3"
 
   # One-shot "ready" chime played once the device connects to HA. Ships with the
   # repo (16 kHz mono, a few KB). Override with any URL or local file in your thin
