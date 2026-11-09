@@ -16,8 +16,8 @@
 ###############################################################################
 
 substitutions:
-  name: jarvis-s3
-  friendly_name: "Jarvis-S3"
+  name: waveshare-va
+  friendly_name: "Waveshare Voice"
 
   # ---------------------------------------------------------------------------
   # Voice assistant phases - drive the LED ring state machine (see control_leds)
